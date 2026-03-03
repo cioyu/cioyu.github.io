@@ -16,5 +16,5 @@ export default defineConfig({
     },
   },
 
-  base: "/cioyublogv1/"
+  base: "/cioyu.github.io/"
 })
