@@ -17,11 +17,11 @@ const linuxJourney = [
 ]
 
 const contacts = [
-  { name: 'GitHub', url: 'https://github.com/cioyu', icon: '💻' },
-  { name: 'Bilibili', url: 'https://space.bilibili.com/1928417915', icon: '📺' },
-  { name: 'YouTube', url: 'https://www.youtube.com/channel/UC_WmZj9i7MZV899g1iunwdA', icon: '🎬' },
-  { name: 'Email', url: 'mailto:cioyu32@gmail.com', icon: '✉️', sub: 'cioyu32@gmail.com' },
-  { name: 'Steam', url: 'https://steamcommunity.com/profiles/76561199760499467/', icon: '🎮' },
+  { name: 'GitHub', url: 'https://github.com/cioyu', icon: '💻', sub: 'github主页' },
+  { name: 'Bilibili', url: 'https://space.bilibili.com/1928417915', icon: '📺', sub: 'B站主页' },
+  { name: 'YouTube', url: 'https://www.youtube.com/channel/UC_WmZj9i7MZV899g1iunwdA', icon: '🎬', sub: 'YouTube主页' },
+  { name: 'Email', url: 'mailto:cioyu32@gmail.com', icon: '✉️', sub: '电子邮箱' },
+  { name: 'Steam', url: 'https://steamcommunity.com/profiles/76561199760499467/', icon: '🎮', sub: 'Steam主页' },
   { name: '抖音', url: 'https://v.douyin.com/NiMz02B5XNI/', icon: '🎵', sub: '抖音主页' },
 ]
 </script>
