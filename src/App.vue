@@ -18,9 +18,11 @@ const linuxJourney = [
 
 const contacts = [
   { name: 'GitHub', url: 'https://github.com/cioyu', icon: '💻' },
-  { name: 'Bilibili', url: 'https://space.bilibili.com/1928417915s', icon: '📺' },
+  { name: 'Bilibili', url: 'https://space.bilibili.com/1928417915', icon: '📺' },
   { name: 'YouTube', url: 'https://www.youtube.com/channel/UC_WmZj9i7MZV899g1iunwdA', icon: '🎬' },
   { name: 'Email', url: 'mailto:cioyu32@gmail.com', icon: '✉️', sub: 'cioyu32@gmail.com' },
+  { name: 'Steam', url: 'https://steamcommunity.com/profiles/76561199760499467/', icon: '🎮' },
+  { name: '抖音', url: 'https://v.douyin.com/NiMz02B5XNI/', icon: '🎵', sub: '抖音主页' },
 ]
 </script>
 
@@ -46,7 +48,7 @@ const contacts = [
             <div class="avatar">C</div>
           </div>
           <h1 class="hero-title">Cioyu 的<br>个人博客</h1>
-          <p class="hero-subtitle">✦ 网络专业学生 ✦</p>
+          <p class="hero-subtitle">✦ 网络专业学生 . AI编程糕手 ✦</p>
           <div class="hero-cta">
             <span class="scroll-hint" @click="scrollToMain">↓ 往下看看</span>
           </div>
