@@ -1,38 +1,42 @@
-# cioyu.github.io
+# cioyu.github.io — Cioyu 的个人博客
 
-This template should help get you started developing with Vue 3 in Vite.
+基于 **Vue 3 + Vite 7 + vue-router 5** 构建的个人博客站点，部署在 [blog.cioyu.top](https://blog.cioyu.top)。
 
-## Recommended IDE Setup
+## 技术栈
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+| 类别 | 技术 |
+|------|------|
+| 框架 | Vue 3 |
+| 路由 | vue-router 5 |
+| 构建 | Vite 7 |
+| 部署 | GitHub Actions → GitHub Pages |
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## 命令
 
 ```sh
+# 安装依赖
 yarn
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 启动开发服务器（热重载）
 yarn dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# 生产构建
 yarn build
+
+# 本地预览生产构建
+yarn preview
 ```
+
+## 项目结构
+
+```
+src/
+├── main.js          # 应用入口
+├── App.vue          # 首页（博主介绍、Linux 折腾历程、学习方向、联系方式）
+└── router/
+    └── index.js     # 路由配置
+```
+
+## 部署
+
+推送 `main` 分支后，GitHub Actions 自动构建并部署到 GitHub Pages。
