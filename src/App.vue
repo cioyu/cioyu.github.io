@@ -10,7 +10,7 @@ const contacts = [
 </script>
 
 <template>
-  <h1>Cioyu 的个人博客</h1>
+  <h1>Cioyu的个人博客</h1>
   <img src="/favicon.ico" alt="头像">
   <p>网络专业学生.AI编程糕手.喜欢看小说.偶尔看下番,玩玩游戏. </p>
   <h2>联系方式</h2>
